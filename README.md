@@ -2,8 +2,6 @@
 
 A Docker container with wkhtmltopdf on top of Debian:jessie
 
-# wkhtmltopdf Docker container
-
 > Debian 8 (Jessie)
 
 > wkhtmltopdf 0.12.4 (with patched qt)
@@ -20,7 +18,7 @@ docker run -d \
 
 ## Generate PDF
 
-To generate a PDF, exec wkhtmltopdf inside docker container. 
+To generate a PDF, execute wkhtmltopdf inside docker container. 
 
 ```
 docker container exec cs2wkhtmltopdf wkhtmltopdf "https://www.google.com/" /tmp/wkhtmltopdf/file.pdf
