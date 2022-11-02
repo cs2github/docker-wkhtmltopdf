@@ -1,13 +1,13 @@
 # Base image
-FROM debian:jessie
+FROM debian:bullseye
 
-MAINTAINER Stefan Preissner <github@cs2.ch>
+MAINTAINER Peter Misinsky <github@cs2.ch>
 
 # Update cache
 RUN apt-get update
 
 # Install required packages
-RUN apt-get install xvfb libxrender1 libfontconfig1 libssl-dev -y
+RUN apt-get install xvfb libxrender1 libfontconfig1 libssl-dev curl libjpeg62-turbo -y
 
 # Install wkhtmltopdf
 ADD wkhtmltopdf /usr/bin/wkhtmltopdf
