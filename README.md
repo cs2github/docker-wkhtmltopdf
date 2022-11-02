@@ -1,10 +1,10 @@
 # wkhtmltopdf Docker container
 
-A Docker container with wkhtmltopdf on top of Debian:jessie
+A Docker container with wkhtmltopdf on top of Debian:bullseye
 
-> Debian 8 (Jessie)
+> Debian 11 (Bullseye)
 
-> wkhtmltopdf 0.12.4 (with patched qt)
+> wkhtmltopdf 0.12.6.1 (with patched qt)
 
 
 ## Usage
@@ -31,6 +31,6 @@ Mount a host directory into the container. The generated PDF files will be saved
 
 ## Author
 
-* Stefan Preissner (<github@cs2.ch>)  
+* Peter Misinsky (<github@cs2.ch>)  
 
 ---
